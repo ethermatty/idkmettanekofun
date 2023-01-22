@@ -5,19 +5,75 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta charset="UTF-8">
     <title>mettaneko.fun</title>
-    <link rel="stylesheet" href="css/style.css">
+    <link href="darktheme.css" rel="stylesheet" id="theme-link">
 </head>
+<style type="text/css">
+	#preloader_malc {
+		position: fixed;
+		top: 0;
+		left: 0;
+		right: 0;
+		bottom: 0;
+		background: rgba(0, 0, 0, .6);
+		z-index: 99
+	}
+
+	#preloader_malc div {
+		background: #0e0e0e;
+		width: 100%;
+		height: 100%;
+		line-height: 40px;
+		border-radius: 8px;
+		font-family: arial;
+		font-size: 15px;
+		color: #111;
+		text-align: center;
+		box-shadow: 0 2px 6px rgba(0, 0, 0, 0.4);
+		position: fixed;
+		z-index: 999;
+		top: 0;
+		left: 0;
+		right: 0;
+		bottom: 0;
+		margin: auto
+		
+	}
+
+	#preloader_malc img {
+		position: absolute;
+    	top: 50%;
+    	left: 50%;
+    	margin-right: -50%;
+		transform: translate(-50%, -50%)
+	}
+</style>
+
+<script type="text/javascript">
+	window.onload = function() {
+		setTimeout(function() {
+
+			document.getElementById("preloader_malc").style.display = "none";
+		}, 2000);
+	};
+</script>
 <body>
+    <div id="preloader_malc">
+		<div>
+			<img src="/img/logo_dark.png" alt="">
+		</div>
+	</div>
     <header class="mainheader">
         <div class="container">
          
-          <img src="img/logo_dark.png">
+            <img src="img/logo_dark.png">
+
           
           <nav class="mainnav">
               <ul>
                   <li><a id="goMettaneko">mettaneko</a></li>
                   <li><a id="goServer">О сервере</a></li>
                   <li><a id="" href="https://discord.gg/AQ6Tg4DT">Discord</a></li>
+                  <!-- <button class="btn-toggle">Изменить тему</button> -->
               </ul>
           </nav>
         </div>
@@ -37,11 +93,31 @@
             <section>
                 <h2>О сервере</h2>
                 <hr>
-                <p>Данный сервер имеет диванный смысл... у меня отключили комп и допишу это завтра..</p>
-                <p><strong>Мда...</strong></p>
+                <p>Данный сервер имеет выживательский смысл, вам предстоит выжить с новыми крафтами, новыми предметами и новыми функциями в мире на 10000х10000 блоков!</p>
+                <p>Так же у нас есть концепт <strong>зиплайна!</strong></p>
+                <img src="zipline.gif" alt="" class="videoo" figure="">
+            </section>
+
+            <section>
+                <h3>Почему именно мы?</h3>
+                <hr>
+                <p>Мы - потому что попали в видео некоторых ютуберов, когда мы были не развиты до данного уровня. Так же мы предлагаем вам сервер который практически без плагинов, кроме SkinRestorter. Потому что наш сервер <strong>пиратский</strong>, и каждый может зайти на данный сервер, хоть с лицензии, хоть с пиратки!</p>
+            </section>
+            <section>
+                <h3>Присоединись к нашему комьюнити!</h3>
+                <hr>
+                <a href="https://discord.gg/eNeCxMY2Sf" class="btna">Присоединиться!</a>
             </section>
         </div>
     </main>
-
+    <footer>
+        <div class="container">
+            <p><strong>mettaneko.fun</strong> является частью сети серверов <strong>ethermatty.ml</strong></p>
+            <p>Вся размещенная информация на сайте <strong>не является публичной офертой</strong>. We are in no way affiliated with or endorsed by <strong>Mojang, AB.</strong></p>
+        </div>
+        
+    </footer>
+    <script src="script.js"></script>
+    <script src="theme.js"></script>
 </body>
 </html>

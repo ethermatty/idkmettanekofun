@@ -46,10 +46,10 @@
       font-family: 'Manrope', sans-serif;
   }
   .mainnav>ul li a:hover{
-      color: #36b8ff;
+      color: #fe8c9c;
   }
   .mainnav>ul li.active a{
-      color: #1f8fcb;
+      color: #fa7688;
   }
   
   .mainnav>ul li img{
@@ -100,7 +100,7 @@
 #prgsBar2 {
     border-radius: 4px;
     margin: auto;
-    background-color: rgb(104, 104, 104);
+    background-color: #ff7083;
     width: 0;
     position: fixed;
     text-align: center;
@@ -176,7 +176,6 @@ footer {
   width: 360px;
   padding: 10px 15px;
   border-radius: 5px;
-  border: 2px solid #1a1a1a;
   text-decoration: none;
   color: #fff;
   transition: 0.2s;
@@ -185,36 +184,7 @@ footer {
   display: block;
   text-align: center;
   margin: 15px auto;
-  background-color:#1f8fcb;
-  font-size: 18px;
-  font-weight: 700;
-  width: 360px;
-  padding: 10px 15px;
-  border-radius: 5px;
-  border: 2px solid #0f577d;
-  text-decoration: none;
-  color: #fff;
-}
-
-.btnaa {
-  display: block;
-  text-align: center;
-  margin: 15px auto;
-  background-color: #1a1a1a;
-  font-size: 18px;
-  font-weight: 700;
-  width: 360px;
-  padding: 10px 15px;
-  border-radius: 5px;
-  text-decoration: none;
-  color: #fff;
-  transition: 0.2s;
-}
-.btnaa:hover {
-  display: block;
-  text-align: center;
-  margin: 15px auto;
-  background-color:#cb1f1f;
+  background-color:#ff7d7d;
   font-size: 18px;
   font-weight: 700;
   width: 360px;
@@ -248,7 +218,7 @@ body{
 
 hr {
     margin: 0px auto 0px auto;
-    border: 2px solid #1f8fcb;
+    border: 2px solid #fa7688;
     max-width: 300px;
 }
 h2{
@@ -290,11 +260,13 @@ p{
   color: #fff;
 }
 
-
-html {
-  scrollbar-color: #6969dd #e0e0e0;
-  scrollbar-width: thin;
+.ruless > ol li {
+  color: #fff;
 }
+
+
+
+
 
 
 @media screen and (max-width: 480px) {
@@ -309,7 +281,7 @@ html {
 
 hr {
     margin: 0px auto 0px auto;
-    border: 2px solid #1f8fcb;
+    border: 2px solid #fa7688;
     max-width: 300px;
 }
 h2{
@@ -376,10 +348,10 @@ p{
     font-family: 'Manrope', sans-serif;
 }
 .mainnav>ul li a:hover{
-    color: #36b8ff;
+    color: #fe8c9c;
 }
 .mainnav>ul li.active a{
-    color: #1f8fcb;
+    color: #fa7688;
 }
 
 .mainnav>ul li img{
@@ -390,5 +362,7 @@ p{
 .mainheader>div img {
   background: url("/img/logo_dark.png")
 }
-
+}
+.text span {
+  color: #fe8c9c;
 }

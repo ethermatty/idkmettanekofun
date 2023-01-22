@@ -27,6 +27,7 @@
       display: flex;
       justify-content: space-between;
       align-items: center;
+      
   }
   .mainnav>ul{
       display: flex;
@@ -153,12 +154,6 @@ footer {
       bottom: 0;
       right: 0;
 }
-.fo0ter > img {
-  width: auto;
-  height: auto;
-  display: flex;
-  align-items:center;
-}
 .fo0ter >div p{
   font-size: 18px;
   line-height: 20px;
@@ -263,13 +258,112 @@ p{
 .ruless > ol li {
   color: #fff;
 }
+.text span {
+  color: #fe8c9c;
+}
+
+
+
+/*
+Адаптация
+*/
+
+@media screen and (max-width: 1200px) {
+  h1{
+    font-size: 34px;
+    font-weight: 700;
+    margin: 0 0 40px;
+    text-align: center;
+    color: #fff;
+    font-family: 'Manrope', sans-serif;
+  }
+
+hr {
+    margin: 0px auto 0px auto;
+    border: 2px solid #fa7688;
+    max-width: 300px;
+}
+h2{
+  font-size: 30px;
+  font-weight: 700;
+  margin: 0 0 40px;
+  position: relative;
+  color: #fff;
+  text-align: center;
+  font-family: 'Manrope', sans-serif;
+}
+
+h3{
+  font-size: 26px;
+  font-weight: 400;
+  margin: 10px 0 20px;
+  color: #fff;
+  text-align: center;
+  font-family: 'Manrope', sans-serif;
+}
+  
+h4{
+  font-size: 22px;
+  font-weight: 700;
+  color: #fff;
+  text-align: center;
+  font-family: 'Manrope', sans-serif;
+}
+
+p{
+  font-size: 18px;
+  line-height: 30px;
+  color: #fff;
+  text-align: center;
+}
+
+.container{
+  width: 600px;
+  margin: auto;
+}
 
 
 
 
+.mainheader>.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.mainnav>ul{
+    display: flex;
+    list-style: none;
+    width: 600px;
 
+    font-weight: 700;
+    font-family: 'Manrope', sans-serif;
+}
+.mainnav>ul li a{
+    font-size: 16px;
+    font-weight: 700;
+    color: #fff;
+    text-decoration: none;
+    transition: 0.1s;
+    font-family: 'Manrope', sans-serif;
+}
+.mainnav>ul li a:hover{
+    color: #fe8c9c;
+}
+.mainnav>ul li.active a{
+    color: #fa7688;
+}
 
-@media screen and (max-width: 480px) {
+.mainnav>ul li img{
+    vertical-align: middle;
+    
+}
+
+.mainheader>div img {
+  background: url("/img/logo_dark.png")
+}
+}
+
+@media screen and (max-width: 600px) {
   h1{
     font-size: 22px;
     font-weight: 700;
@@ -334,13 +428,13 @@ p{
 .mainnav>ul{
     display: flex;
     list-style: none;
-    width: 300px;
+    width: 350px;
 
     font-weight: 700;
     font-family: 'Manrope', sans-serif;
 }
 .mainnav>ul li a{
-    font-size: 16px;
+    font-size: 13px;
     font-weight: 700;
     color: #fff;
     text-decoration: none;
@@ -362,7 +456,73 @@ p{
 .mainheader>div img {
   background: url("/img/logo_dark.png")
 }
+.fo0ter >div p{
+  font-size: 12px;
+  line-height: 15px;
+  color: #fff;
+  text-align:left;
 }
-.text span {
-  color: #fe8c9c;
+}
+
+
+@media screen and (max-width: 200px) {
+  h1{
+    font-size: 16px;
+    font-weight: 700;
+    margin: 0 0 40px;
+    text-align: center;
+    color: #fff;
+    font-family: 'Manrope', sans-serif;
+  }
+
+hr {
+    margin: 0px auto 0px auto;
+    border: 2px solid #fa7688;
+    max-width: 300px;
+}
+h2{
+  font-size: 12px;
+  font-weight: 700;
+  margin: 0 0 40px;
+  position: relative;
+  color: #fff;
+  text-align: center;
+  font-family: 'Manrope', sans-serif;
+}
+
+h3{
+  font-size: 10px;
+  font-weight: 400;
+  margin: 10px 0 20px;
+  color: #fff;
+  text-align: center;
+  font-family: 'Manrope', sans-serif;
+}
+  
+h4{
+  font-size: 12px;
+  font-weight: 700;
+  color: #fff;
+  text-align: center;
+  font-family: 'Manrope', sans-serif;
+}
+
+p{
+  font-size: 8px;
+  line-height: 10px;
+  color: #fff;
+  text-align: center;
+}
+
+.container{
+  width: 100px;
+  margin: auto;
+}
+
+.fo0ter >div p{
+  font-size: 8px;
+  line-height: 10px;
+  color: #fff;
+  text-align:left;
+}
 }

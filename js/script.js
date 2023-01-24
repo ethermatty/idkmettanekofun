@@ -1,5 +1,3 @@
-let i = 1000
-
 window.addEventListener('scroll', function(){
     let progressbar = document.querySelector('#prgsBar2');
 

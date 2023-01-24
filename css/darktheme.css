@@ -173,7 +173,7 @@ body{
 
  /*
  Кнопки
- */
+ 
 button{
   background-color: #1a1a1a;
   font-size: 16px;
@@ -186,6 +186,7 @@ button{
   color: #fff;
   transition: 0.2s;
 }
+*/
 
 .btna {
   display: block;
@@ -201,16 +202,7 @@ button{
   transition: 0.2s;
 }
 .btna:hover {
-  display: block;
-  text-align: center;
-  margin: 15px auto;
   background-color: #3d7ce1;
-  font-size: 18px;
-  width: 360px;
-  padding: 10px 15px;
-  border-radius: 5px;
-  text-decoration: none;
-  color: #fff;
 }
 
 
@@ -479,7 +471,7 @@ p{
 
 @media screen and (max-width: 600px) {
   h1{
-    font-size: 22px;
+    font-size: 26px;
     font-weight: 700;
     margin: 0 0 40px;
     text-align: center;
@@ -493,7 +485,7 @@ hr {
     max-width: 300px;
 }
 h2{
-  font-size: 18px;
+  font-size: 20px;
   font-weight: 700;
   margin: 0 0 40px;
   position: relative;
@@ -520,7 +512,7 @@ h4{
 }
 
 p{
-  font-size: 12px;
+  font-size: 14px;
   line-height: 30px;
   color: #fff;
   text-align: center;
@@ -577,6 +569,150 @@ p{
   color: #fff;
   text-align:left;
 }
+
+.mini{
+  font-size: 12px;
+}
+
+.btna {
+  display: block;
+  text-align: center;
+  margin: 15px auto;
+  background-color: rgb(36, 36, 36);
+  font-size: 16px;
+  width: 200px;
+  padding: 10px 15px;
+  border-radius: 5px;
+  text-decoration: none;
+  color: #fff;
+  transition: 0.2s;
+}
+.btna:hover {
+  background-color: #3d7ce1;
+}
+}
+
+@media screen and (max-width: 400px) {
+  h1{
+    font-size: 26px;
+    font-weight: 700;
+    margin: 0 0 40px;
+    text-align: center;
+    color: #fff;
+    font-family: 'Manrope', sans-serif;
+  }
+
+hr {
+    margin: 0px auto 0px auto;
+    border: 2px solid #448bfc;
+    max-width: 300px;
+}
+h2{
+  font-size: 20px;
+  font-weight: 700;
+  margin: 0 0 40px;
+  position: relative;
+  color: #fff;
+  text-align: center;
+  font-family: 'Manrope', sans-serif;
+}
+
+h3{
+  font-size: 16px;
+  font-weight: 600;
+  margin: 10px 0 20px;
+  color: #fff;
+  text-align: center;
+  font-family: 'Manrope', sans-serif;
+}
+  
+h4{
+  font-size: 12px;
+  font-weight: 600;
+  color: #fff;
+  text-align: center;
+  font-family: 'Manrope', sans-serif;
+}
+
+p{
+  font-size: 14px;
+  line-height: 30px;
+  color: #fff;
+  text-align: center;
+  font-family: 'Inter';
+}
+
+.container{
+  width: 350px;
+  margin: auto;
+}
+
+
+
+
+.mainheader>.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.mainnav>ul{
+    display: flex;
+    list-style: none;
+    width: 300px;
+
+    font-weight: 700;
+    font-family: 'Manrope', sans-serif;
+}
+.mainnav>ul li a{
+    font-size: 12px;
+    font-weight: 700;
+    color: #fff;
+    text-decoration: none;
+    transition: 0.1s;
+    font-family: 'Manrope', sans-serif;
+}
+.mainnav>ul li a:hover{
+    color: #448bfc;
+}
+.mainnav>ul li.active a{
+    color: #448bfc;
+}
+
+.mainnav>ul li img{
+    vertical-align: middle;
+    
+}
+
+.mainheader>div img {
+  background: url("/img/logo_dark.png")
+}
+.fo0ter >div p{
+  font-size: 12px;
+  line-height: 15px;
+  color: #fff;
+  text-align:left;
+}
+
+.mini{
+  font-size: 12px;
+}
+
+.btna {
+  display: block;
+  text-align: center;
+  margin: 15px auto;
+  background-color: rgb(36, 36, 36);
+  font-size: 16px;
+  width: 200px;
+  padding: 10px 15px;
+  border-radius: 5px;
+  text-decoration: none;
+  color: #fff;
+  transition: 0.2s;
+}
+.btna:hover {
+  background-color: #3d7ce1;
+}
 }
 
 
@@ -589,7 +725,9 @@ p{
     color: #fff;
     font-family: 'Manrope', sans-serif;
   }
-
+  .mini{
+    font-size: 8px;
+  }
 hr {
     margin: 0px auto 0px auto;
     border: 2px solid #448bfc;

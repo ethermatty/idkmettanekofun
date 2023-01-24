@@ -1,3 +1,5 @@
+let i = 1000
+
 window.addEventListener('scroll', function(){
     let progressbar = document.querySelector('#prgsBar2');
 
@@ -19,4 +21,8 @@ wikibanlist.addEventListener('click', function () {
 
 wikistaff.addEventListener('click', function () {
     window.location.href = 'staff.html';
+})
+
+wikiqq.addEventListener('click', function () {
+    window.location.href = 'faq.html';
 })

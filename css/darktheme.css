@@ -304,12 +304,24 @@ p{
   text-align: left;
   padding-left: 30px;
   padding-bottom: 20px;
+
+}
+
+.containerD a {
+  text-align: left;
+  padding-left: 30px;
+  padding-bottom: 30px;
+  font-size: 18px;
+  line-height: 30px;
+  color: #fff;
+  font-family: 'Inter';
+  text-decoration: none;
 }
 
 .containerD img {
   width: 48px;
   height: 48px;
-  padding: 4px;
+  padding: 5px;
   margin-left: 30px;
   margin-bottom: 0px;
   margin-top: 20px;

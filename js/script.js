@@ -24,3 +24,6 @@ wikistaff.addEventListener('click', function () {
 wikiqq.addEventListener('click', function () {
     window.location.href = 'faq.html';
 })
+wikiqqq.addEventListener('click', function () {
+    window.location.href = 'faq.html';
+})

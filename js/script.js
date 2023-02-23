@@ -10,23 +10,23 @@ window.addEventListener('scroll', function(){
 });
 
 wikievents.addEventListener('click', function () {
-    window.location.href = 'events.html';
+    window.location.href = 'events';
 })
 
 wikibanlist.addEventListener('click', function () {
-    window.location.href = 'banlist.html';
+    window.location.href = 'banlist';
 })
 
 wikistaff.addEventListener('click', function () {
-    window.location.href = 'staff.html';
+    window.location.href = 'staff';
 })
 
 wikiqq.addEventListener('click', function () {
-    window.location.href = 'faq.html';
+    window.location.href = 'faq';
 })
 wikiqg.addEventListener('click', function () {
-    window.location.href = 'crafts.html';
+    window.location.href = 'crafts';
 })
-wikiqqq.addEventListener('click', function () {
-    window.location.href = 'faq.html';
+wikiqs.addEventListener('click', function () {
+    window.location.href = 'balance';
 })

@@ -282,6 +282,11 @@ p{
   padding-left: 30px;
   padding-top: 5px;
 }
+.containerD h4 {
+  text-align: left;
+  padding-left: 30px;
+  padding-top: 5px;
+}
 
 .containerD {
   width: 100%;
@@ -340,7 +345,7 @@ p{
   display: block;
   width: 400px;
   height: 200px;
-  border-radius: 24px;
+  border-radius: 28px;
   margin-bottom: 20px;
 }
 
@@ -502,11 +507,11 @@ p{
 }
 
 @media screen and (max-width: 600px) {
-    .craft img {
+  .craft img {
     display: block;
     width: 300px;
     height: 150px;
-    border-radius: 24px;
+    border-radius: 28px;
     margin-bottom: 20px;
   }
   h1{

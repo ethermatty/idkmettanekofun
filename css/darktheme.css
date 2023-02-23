@@ -128,6 +128,7 @@ body{
         width: 100%;
         bottom: 0;
         right: 0;
+        
   }
   .fo0ter >div p{
     font-size: 18px;
@@ -306,7 +307,12 @@ p{
   padding-bottom: 20px;
 
 }
+.nopad p {
+  text-align: left;
+  padding-left: 30px;
+  padding-bottom: 0px;
 
+}
 .containerD a {
   text-align: left;
   padding-left: 30px;
@@ -381,6 +387,10 @@ p{
   font-size: 15px;
 }
 
+.logo{
+  width: 50px;
+  height: 50px;
+}
 /*
 Адаптация
 */
@@ -478,6 +488,7 @@ p{
 
 .mainheader>div img {
   background: url("/img/logo_dark.png")
+  
 }
 }
 

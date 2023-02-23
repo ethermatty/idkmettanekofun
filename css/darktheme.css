@@ -502,6 +502,13 @@ p{
 }
 
 @media screen and (max-width: 600px) {
+    .craft img {
+    display: block;
+    width: 300px;
+    height: 150px;
+    border-radius: 24px;
+    margin-bottom: 20px;
+  }
   h1{
     font-size: 26px;
     font-weight: 700;

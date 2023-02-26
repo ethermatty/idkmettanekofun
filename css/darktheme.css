@@ -29,7 +29,7 @@ body{
 #prgsBar2 {
     border-radius: 4px;
     margin: auto;
-    background-color: #448bfc;
+    background-color: #29ff89;
     width: 0;
     position: fixed;
     text-align: center;
@@ -61,16 +61,19 @@ body{
     text-decoration: none;
     transition: 0.1s;
     font-family: 'Manrope', sans-serif;
+    border-radius: 8px;
+    padding: 3px 8px;
 }
 .mainnav>ul li a:hover{
-    color: #448bfc;
+    color: #29ff89;
+    background-color:rgba(255, 255, 255, 0.1);
 }
 .mainnav>ul li.active a{
-    color: #448bfc;
+    color: #29ff89;
 }
 
 .mainnav>ul li img{
-    vertical-align: middle;
+  vertical-align: middle;
     
 }
 
@@ -104,17 +107,17 @@ body{
   }
   .mainheader>.container{
     display: flex;
-    justify-content: space-between;
     align-items: center;
-    
+    justify-content:center;
 }
-.mainheader>div img {
-  background: url("/img/logo_dark.png")
+.container{
+  width: 1200px;
+  margin: auto;
 }
-  .container{
-    width: 1200px;
-    margin: auto;
-  }
+.containerC{
+  width: 600px;
+  margin: auto;
+}
   
   
   /*
@@ -203,7 +206,7 @@ button{
   transition: 0.2s;
 }
 .btna:hover {
-  background-color: #3d7ce1;
+  background-color: rgb(27, 174, 93);
 }
 
 
@@ -234,7 +237,7 @@ button{
 
 hr {
     margin: 0px auto 0px auto;
-    border: 2px solid #448bfc;
+    border: 2px solid #29ff89;
     max-width: 300px;
 }
 h2{
@@ -357,46 +360,46 @@ p{
 декор текста
 */
 .text span {
-  color: #448bfc;
+  color: #26e27b;
 }
 
 .orange {
   background-color: rgba(249, 115, 22,0.1);
-  border: 1px solid rgba(249, 115, 22,0.25);
+  border: 2px solid rgba(249, 115, 22);
 }
 .red {
-  background-color: rgba(239, 68, 68,0.1);
-  border: 1px solid rgba(239, 68, 68,0.25);
+  background-color: rgba(224,36,67,0.1);
+  border: 2px solid rgba(224,36,67);
 }
 .blue {
   background-color: rgba(68, 131, 239,0.1);
-  border: 1px solid rgba(68, 131, 239,0.25);
+  border: 2px solid rgba(68, 131, 239);
 }
 .green {
-  background-color: rgba(13,148,136, 0.1);
-  border: 1px solid rgba(13,148,136,0.25);
+  background-color: rgba(41,255,137, 0.1);
+  border: 2px solid rgba(27, 174, 93);
 }
 .purple {
   background-color: rgba(204, 85, 251, 0.1);
-  border: 1px solid rgba(204, 85, 251,0.25);
+  border: 2px solid rgba(204, 85, 251);
 }
 .orangetxt span {
   color: rgb(249, 115, 22);
 }
 .redtxt span{
-  color: rgb(239, 68, 68);
+  color: rgb(224,36,67);
 }
 .bluetxt span{
   color: rgb(68, 131, 239);
 }
 .greentxt span{
-  color: rgb(13,148,136);
+  color: rgb(39, 211, 116);
 }
 .greenback span{
   padding: 2px 10px;
   margin-right: 10px;
   border-radius: 8px;
-  background-color: rgb(13,148,136);
+  background-color: rgb(39, 211, 116);
   color: #fff;
 }
 .greenback>h2 span{
@@ -410,11 +413,12 @@ p{
 .mini{
   font-size: 15px;
 }
-
 .logo{
   width: 50px;
   height: 50px;
+
 }
+
 /*
 Адаптация
 */
@@ -431,7 +435,7 @@ p{
 
 hr {
     margin: 0px auto 0px auto;
-    border: 2px solid #448bfc;
+    border: 2px solid #29ff89;
     max-width: 300px;
 }
 h2{
@@ -499,10 +503,10 @@ p{
     font-family: 'Manrope', sans-serif;
 }
 .mainnav>ul li a:hover{
-    color: #448bfc;
+    color: #29ff89;
 }
 .mainnav>ul li.active a{
-    color: #448bfc;
+    color: #29ff89;
 }
 
 .mainnav>ul li img{
@@ -510,10 +514,7 @@ p{
     
 }
 
-.mainheader>div img {
-  background: url("/img/logo_dark.png")
-  
-}
+
 }
 
 @media screen and (max-width: 600px) {
@@ -535,7 +536,7 @@ p{
 
 hr {
     margin: 0px auto 0px auto;
-    border: 2px solid #448bfc;
+    border: 2px solid #29ff89;
     max-width: 300px;
 }
 h2{
@@ -549,7 +550,7 @@ h2{
 }
 
 h3{
-  font-size: 16px;
+  font-size: 23px;
   font-weight: 600;
   margin: 10px 0 20px;
   color: #fff;
@@ -566,7 +567,7 @@ h4{
 }
 
 p{
-  font-size: 14px;
+  font-size: 18px;
   line-height: 30px;
   color: #fff;
   text-align: center;
@@ -595,7 +596,7 @@ p{
     font-family: 'Manrope', sans-serif;
 }
 .mainnav>ul li a{
-    font-size: 12px;
+    font-size: 16px;
     font-weight: 700;
     color: #fff;
     text-decoration: none;
@@ -603,10 +604,10 @@ p{
     font-family: 'Manrope', sans-serif;
 }
 .mainnav>ul li a:hover{
-    color: #448bfc;
+    color: #29ff89;
 }
 .mainnav>ul li.active a{
-    color: #448bfc;
+    color: #29ff89;
 }
 
 .mainnav>ul li img{
@@ -614,8 +615,9 @@ p{
     
 }
 
-.mainheader>div img {
-  background: url("/img/logo_dark.png")
+.containerC{
+  width: 400px;
+  margin: auto;
 }
 .fo0ter >div p{
   font-size: 12px;
@@ -641,9 +643,6 @@ p{
   color: #fff;
   transition: 0.2s;
 }
-.btna:hover {
-  background-color: #3d7ce1;
-}
 }
 
 @media screen and (max-width: 400px) {
@@ -655,10 +654,13 @@ p{
     color: #fff;
     font-family: 'Manrope', sans-serif;
   }
-
+  .containerC{
+    width: 350px;
+    margin: auto;
+  }
 hr {
     margin: 0px auto 0px auto;
-    border: 2px solid #448bfc;
+    border: 2px solid #29ff89;
     max-width: 300px;
 }
 h2{
@@ -672,7 +674,7 @@ h2{
 }
 
 h3{
-  font-size: 16px;
+  font-size: 23px;
   font-weight: 600;
   margin: 10px 0 20px;
   color: #fff;
@@ -689,7 +691,7 @@ h4{
 }
 
 p{
-  font-size: 14px;
+  font-size: 16px;
   line-height: 30px;
   color: #fff;
   text-align: center;
@@ -726,10 +728,10 @@ p{
     font-family: 'Manrope', sans-serif;
 }
 .mainnav>ul li a:hover{
-    color: #448bfc;
+    color: #29ff89;
 }
 .mainnav>ul li.active a{
-    color: #448bfc;
+    color: #29ff89;
 }
 
 .mainnav>ul li img{
@@ -737,9 +739,7 @@ p{
     
 }
 
-.mainheader>div img {
-  background: url("/img/logo_dark.png")
-}
+
 .fo0ter >div p{
   font-size: 12px;
   line-height: 15px;
@@ -764,9 +764,6 @@ p{
   color: #fff;
   transition: 0.2s;
 }
-.btna:hover {
-  background-color: #3d7ce1;
-}
 }
 
 
@@ -784,7 +781,7 @@ p{
   }
 hr {
     margin: 0px auto 0px auto;
-    border: 2px solid #448bfc;
+    border: 2px solid #29ff89;
     max-width: 300px;
 }
 h2{
@@ -831,5 +828,9 @@ p{
   line-height: 10px;
   color: #fff;
   text-align:left;
+}
+.containerC{
+  width: 100px;
+  margin: auto;
 }
 }
